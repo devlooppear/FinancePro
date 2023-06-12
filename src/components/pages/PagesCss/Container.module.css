@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .start {
+    justify-content: flex-start;
+  }
+  
+  .column {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .min-height {
+    min-height: 75%;
+  }
+
+  @media screen and (max-width:990px){
+    .container {
+      margin: 0;
+    }
+}
+
+@media screen and (min-width: 1500px){
+  .container {
+    width: 90vw;
+  }
+}

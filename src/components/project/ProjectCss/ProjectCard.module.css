@@ -1,0 +1,171 @@
+.project_card {
+    padding: 1em 1em 1.5em 1em;
+    border: 1px solid rgb(17, 73, 73);
+    box-shadow: 1px 2px 8px 0px;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+    background-color: #f4f7f4;
+  }
+  
+  .project_card h4 {
+    background-color: #09433e;
+    color: #7fc840;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .project_card p {
+    font-size: 1.1em;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+  }
+  
+  .project_card p span {
+    font-weight: bold;
+  }
+  
+  .category_text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+  }
+  
+  .category_text .infra {
+    background-color: #ffaebc;
+  }
+  
+  .category_text .desenvolvimento {
+    background-color: #a0e7e5;
+  }
+  
+  .category_text .design {
+    background-color: #b4f8c8;
+  }
+  
+  .category_text .planejamento {
+    background-color: #fbe7c6;
+  }
+  
+  .project_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .project_card_actions a,
+  .project_card_actions button {
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #222;
+    font-size: 0.9em;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #222;
+    display: block;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 3px;
+  }
+  
+  .project_card_actions svg {
+    margin-right: 0.5em;
+  }
+  
+  .project_card_actions a:hover,
+  .project_card_actions button:hover {
+    background-color: #09433e;
+    color: #7fc840;
+  }
+  
+  .project_details {
+    padding: 2em;
+  }
+  
+  .project_details h1,
+  .project_details p {
+    margin-bottom: 0.5em;
+    max-width: 100%;
+  }
+  
+  .project_details h2 {
+    max-width: 80%;
+  }
+  
+  .project_details h1 {
+    background-color: #09433e;
+    color: #7fc840;
+    padding: 0.4em;
+    border-radius: 5px;
+  }
+  
+  .project_details span {
+    font-weight: bold;
+  }
+  
+  .project_details {
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service_form_container {
+    border-top: 1px solid #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .btn {
+    background-color: rgb(17, 93, 93);
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 20%;
+    text-align: center;
+    margin: 1% 0 2% auto;
+    max-height: 40px;
+  }
+  
+  .btn:hover {
+    color: #ffbb33;
+  }
+  
+  .project_form {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 990px) {
+    .project_card {
+      align-items: center;
+      width: 75%;
+      margin: 3% auto;
+    }
+    
+  }
+  

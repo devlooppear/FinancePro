@@ -1,0 +1,21 @@
+  
+  .footer--scrollable {
+    position: static;
+  }
+  
+  .footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer ul li {
+    display: inline-block !important;
+    margin: 0 15px;
+  }
+  
+  .footer ul li a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(6, 25, 44); /* Inherit the color from the parent element */
+  }
